@@ -4,7 +4,7 @@
     background-size: cover;
     text-align: center;
     background-attachment: fixed;
-    height: 100vh;
+    min-height: 100vh;
 
 }
 .hero > .row {
@@ -62,8 +62,34 @@
 
 }
 .hero .mouse {
-
+    width: 100px;
+    height: 180px;
+    border: 10px solid white;
+    border-radius: 50px;
+    background-color: transparent;
 }
+.hero .mouse > .wheel {
+    width: 10px;
+    height: 20px;
+    background-color: white;
+    margin-top: 10px;
+    animation: mouse 1s ease-out 0s infinite normal forwards;
+}
+.hero .mouse > .wheel:hover {
+    animation-play-state: paused;
+}
+
+@keyframes mouse {
+    0% {
+        margin-top: 30px;
+        opacity: 1;
+    }
+    100% {
+        margin-top: 150px;
+        opacity: 0;
+    }
+}
+
 
 
 @media (max-width: 700px) {
