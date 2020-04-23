@@ -7,11 +7,13 @@
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/mouse.css">
+    <link rel="stylesheet" href="/css/button.css">
+    <link rel="stylesheet" href="/css/progg.css">
+    <link rel="stylesheet" href="/css/input.css">
+    <link rel="stylesheet" href="/css/footer.css">
     <link rel="stylesheet" href="/css/div.css">
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/progg.css">
-    <link rel="stylesheet" href="/css/footer.css">
-    <link rel="stylesheet" href="/css/mouse.css">
 </head>
 <body>
     <div class="container hero">
@@ -38,9 +40,8 @@
                 </div>
             </div>
             <div class="form">
-                <label class="labelas" for="email">Type your email</label>
-                <input class="inputas" type="email">
-                <input type="button" value="subscribe now">
+                <input id="inputas" type="email" placeholder="Type your email">
+                <div class="btn btn-red">Subscribe now</div>
             </div>
             <div class="mouse">
                 <div class="wheel"></div>
@@ -90,7 +91,10 @@
                 <h2>Have any question?</h2>
                 <p>Lorem ipsum dolor sit amet, <a href="#">email.email@mail.com</a> elit. Tempore aut nesciunt cupiditate non, fugit quod, similique voluptatem eos, recusandae id itaque amet qui error molestiae dignissimos nobis sequi nulla accusantium.</p>
                 <div class="form">
-                    input
+                    <input class="half" type="text" placeholder="Name">
+                    <input class="half" type="email" placeholder="Email">
+                    <textarea placeholder="Message"></textarea>
+                    <div class="btn btn-red">Send message</div>
                 </div>
             </div>
         </div>
@@ -118,6 +122,8 @@
             <a href="#" class="social-link">
                 <i class="fa fa-rss" aria-hidden="true"></i>
             </a>
+            
+            <a href="#" class="btn btn-circle back-to-top fa fa-angle-up"></a>
         </div>
         <div class="row">
             <img class="footer-logo" src="/img/logo-white.png" alt="">

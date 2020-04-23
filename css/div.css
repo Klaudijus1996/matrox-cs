@@ -52,14 +52,14 @@
     width: 90%;
     margin: 0 5% 20px;
 }
-.inputas {
-    width: 90%;
-    line-height: 20px;
-    margin-bottom: 40px;
+#inputas {
     border: none;
     border-bottom: 1px solid white;
+    color: white;
     background: transparent;
-
+}
+#inputas::placeholder {
+    color: #ffffff;
 }
 .hero .mouse {
     width: 100px;
